@@ -31,6 +31,11 @@
     align-content: flex-start;
     background-color: #f2f2f2;
 }
+.flex-items1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
 .flex-items4{
     display: flex;
     flex-direction:column;
@@ -55,6 +60,8 @@
 
 a{
     text-decoration: none;
+    color: #333;
+    font-size: large;
 }
 
 .n{
@@ -206,5 +213,11 @@ td{
 }
 .row{
     display: flex;
+    justify-content: center;
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
